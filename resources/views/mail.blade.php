@@ -1,0 +1,1 @@
+day la mail cua cuong gui cho {{$name}}
