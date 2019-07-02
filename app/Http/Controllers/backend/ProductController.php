@@ -118,6 +118,7 @@ class ProductController extends Controller
         $product->values()->Sync($mang);
         //edit vriant
         $variant = get_combinations($request->attr);
+        
         foreach($variant as $var)
         {   
             if(check_variant($product,$var))
